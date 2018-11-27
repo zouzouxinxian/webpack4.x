@@ -19,6 +19,16 @@
      。打包的入口是 ： src -> index.js
      。打包的输出文件是 ： dist -> main.js
      。 4.x 中新增了 mode 选项（为必选项），可选的值为： development 和  producion
+     
+6.安装webpack-dev-server
+  。npm i webpack-dev-server -g
+  。运行 npm run dev
+  
+7.在webpack.config.js中设置scripts
+  。"dev": "webpack-dev-server --open chrome --port 8080 --hot --host 127.0.0.1"
+ 
+8.在index.html中引入磁盘中的main.js
+  。   <script src="/main.js"></script>
     
     
     
